@@ -6,4 +6,6 @@ Students should use this [rubric](https://review.udacity.com/#!/projects/2696458
 For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
 
 1- I make it for you as simple as possible when the game started use the **keyboard** arrows to controls the **player**
+
+
 2- The **Player** should be careful from the **Anaimes** because when the **Anime** catch the **Player** the **Score** will decrease by 10 points and when the **Player** make it to the blue line will get extra 10 points
