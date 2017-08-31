@@ -31,7 +31,7 @@ Enemy.prototype.update = function(dt) {
         30 + player.y > this.y) {
         player.x = 200;
         player.y = 380;
-        player.score -=10;
+        this.score -=10;
     }
 };
 
@@ -70,14 +70,14 @@ Player.prototype.update = function() {
     if (this.y < 0) {
         this.x = 200;
         this.y = 380;
-        player.score += 10 ;
+        this.score += 10 ;
     }
 };
 Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
     ctx.font = 'italic 20pt Calibri';
  	ctx.fillStyle = 'white';
-    ctx.fillText( "Score = " + player.score  , 5, 100 );
+    ctx.fillText( "Score = " + this.score  , 5, 100 );
 };
 
 Player.prototype.handleInput = function(keyPress) {

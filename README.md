@@ -9,3 +9,5 @@ For detailed instructions on how to get started, check out this [guide](https://
 
 
 2- The **Player** should be careful from the **Anaimes** because when the **Anime** catch the **Player** the **Score** will decrease by 10 points and when the **Player** make it to the blue line will get extra 10 points
+
+3- Now you can [run the game](https://ferasbinhussain.000webhostapp.com/Arcade%20Game/)
